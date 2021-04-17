@@ -14,6 +14,7 @@
 
 int main()
 {
+	printf("GIT");
 	setbuf(stdout, NULL);
     //DECLARACION DE VARIABLES
     int resultadoSuma;
