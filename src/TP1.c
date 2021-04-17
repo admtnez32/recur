@@ -14,7 +14,6 @@
 
 int main()
 {
-	printf("GIT");
 	setbuf(stdout, NULL);
     //DECLARACION DE VARIABLES
     int resultadoSuma;
@@ -126,12 +125,12 @@ int main()
 
                     system("cls");
                     printf("Los resultados son: \n\n");
-                    printf("    Suma (%d + %d): %d\n\n", primerOperando, segundoOperando, resultadoSuma);
-                    printf("    Resta (%d - %d): %d\n\n", primerOperando, segundoOperando, resultadoResta);
-                    printf("    Multiplicacion (%d * %d): %d\n\n", primerOperando, segundoOperando, resultadoMultiplicacion);
+                    printf("    Suma (%d + %d) = %d\n\n", primerOperando, segundoOperando, resultadoSuma);
+                    printf("    Resta (%d - %d) = %d\n\n", primerOperando, segundoOperando, resultadoResta);
+                    printf("    Multiplicacion (%d * %d) = %d\n\n", primerOperando, segundoOperando, resultadoMultiplicacion);
 
                     if(segundoOperando != 0){
-                        printf("    Division (%d / %d): %.2f\n\n", primerOperando, segundoOperando, resultadoDivision);
+                        printf("    Division (%d / %d) = %.2f\n\n", primerOperando, segundoOperando, resultadoDivision);
                     }
                     else
                     {
@@ -139,7 +138,7 @@ int main()
                     }
 
                     if(primerOperando > 0 && primerOperando < 13){
-                        printf("    Factorial A (!%d): %d\n\n", primerOperando, resultadoFactorialA);
+                        printf("    Factorial A (!%d) = %d\n\n", primerOperando, resultadoFactorialA);
                     }
                     else
                     {
@@ -147,7 +146,7 @@ int main()
                     }
 
                     if(segundoOperando >= 0 && segundoOperando < 13){
-                        printf("    Factorial B (!%d): %d\n\n", segundoOperando, resultadoFactorialB);
+                        printf("    Factorial B (!%d) = %d\n\n", segundoOperando, resultadoFactorialB);
                     }
                     else
                     {
